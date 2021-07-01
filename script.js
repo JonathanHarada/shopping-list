@@ -25,7 +25,7 @@ function handleItemForm(event, formRef) {
 function addItemToShoppingList() {
     let itemName = document.getElementById("item-name");
     let itemAmount = document.getElementById("item-amount");
-    let id = getRandomInt(0, 10000000)
+    let id = getRandomInt(0, 10000000);
 
     let itemHtml = createListItemHtml(itemName.value, itemAmount.value, id);
     console.log("Item HTML: ", itemHtml);
